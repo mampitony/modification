@@ -1,0 +1,26 @@
+[
+    {
+        "model":"organisme_social.CentreDeCotisation",
+        "pk":1,
+        "fields":{
+            "nom_organisme_social":"Caisse Nationale De Prévoyance Sociale",
+            "sigle":"CNaPS"
+        }
+    },
+    {
+        "model":"organisme_social.CentreDeCotisation",
+        "pk":2,
+        "fields":{
+            "nom_organisme_social":"Organisation Sanitaire Tananarivienne Inter Entreprises",
+            "sigle":"OSTIE"
+        }
+    },
+    {
+        "model":"organisme_social.CentreDeCotisation",
+        "pk":3,
+        "fields":{
+            "nom_organisme_social":"FUNFIA",
+            "sigle":"FUNFIA"
+        }
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "model":"service_impot.ServiceImpot",
+        "pk":1,
+        "fields":{
+            "nom_service_impot":"Impôt",
+            "nom_de_l_impot":"Impôts Sur les Revenus Salariaux et Assimilés",
+            "sigle_nom_de_l_impot":"IRSA"
+        }
+    }
+]
