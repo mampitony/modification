@@ -6,7 +6,7 @@ from etablissement.models import Etablissement
 # Modèle pour centre de cotisation
 class CentreDeCotisation(models.Model):
     nom_organisme_social = models.CharField(unique=True, max_length=255)
-    sigle = models.CharField(null=True, blank=True)
+    sigle = models.CharField(null=True, blank=True, max_length=255)
 
     def __str__(self):
         return f"{self.nom_organisme_social}({self.sigle})"

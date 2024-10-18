@@ -6,7 +6,7 @@ from etablissement.models import Etablissement
 class ServiceImpot(models.Model):
     nom_service_impot = models.CharField(max_length=255)
     nom_de_l_impot = models.CharField(max_length=255)
-    sigle_nom_de_l_impot = models.CharField(null=True, blank=True)
+    sigle_nom_de_l_impot = models.CharField(null=True, blank=True, max_length=255)
 
 
     def __str__(self):
