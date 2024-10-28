@@ -25,5 +25,5 @@ urlpatterns = [
     path('employe/', include('employe.urls')),
     path('service-impot/', include('service_impot.urls')),
     path('organisme-social/', include('organisme_social.urls')),
-    path('jour/', include('jour.urls'))
+    path('jour/', include('jour.urls')),
 ]
